@@ -20,9 +20,9 @@
 
 ## Data 📦
 
-- [mtcars dataset]: The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models). See description of variables at: https://stat.ethz.ch/R-manual/R-patched/library/datasets/html/mtcars.html
-Taken from: Henderson and Velleman (1981), Building multiple regression models interactively. **Biometrics**, 37, 391–411.
-The dataset is already provided in `mtcars.csv`.
+- [Concrete Slump Test Data Set]: Concrete is a highly complex material. The slump flow of concrete is not only determined by the water content, but that is also influenced by other concrete ingredients. The data was provided by the Department of Information Management, Chung-Hua University (Republic of China), and comprises 103 data observations (concrete slug). See description of variables at: https://archive.ics.uci.edu/ml/datasets/Concrete+Slump+Test
+Taken from: Yeh, I-Cheng, "Modeling slump flow of concrete using second-order regressions and artificial neural networks", 2007. **Cement and Concrete Composites**, 29, 474-480.
+The dataset is already provided in `slump_test.csv`.
 
 ## Tasks 📝
 
