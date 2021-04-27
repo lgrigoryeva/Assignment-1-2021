@@ -28,7 +28,7 @@ The dataset is already provided in `slump_test.csv`.
 
 #### Preliminaries
 
-- Load the dataset from `mtcars.csv`.
+- Load the dataset from `slump_test.csv`.
 
 - Write a function
 
@@ -55,7 +55,7 @@ _Implement the L1, L2, Huber losses_ (see ***Chapter 2***) _in three different f
 
 ***
 
-1. Construct a **simple linear regression model** that predicts the fuel consumption (mpg) of a given car provided the  **gross horsepower**.
+1. Construct a **simple linear regression model** that predicts the Compressive Strength of a given concrete type provided **Water** level.
 
   	- Use 90% of the sample length for the total training set and 10% for the testing set.
 
@@ -67,9 +67,9 @@ _Implement the L1, L2, Huber losses_ (see ***Chapter 2***) _in three different f
 
   	- Plot:
 
-  		- Predicted fuel consumption values (regression line), predicted data points and ground-truth data points for the **training data**.
+  		- Predicted Compressive Strength values (regression line), predicted data points and ground-truth data points for the **training data**.
 
-  		- Predicted fuel consumption values (regression line) and ground-truth data points for the **test data**.
+  		- Predicted Compressive Strength values (regression line) and ground-truth data points for the **test data**.
 
 2. Construct an example of **multiple regression** using as predictors **gross horsepower** and **weight**.
 
