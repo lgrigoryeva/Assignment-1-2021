@@ -88,7 +88,7 @@ _Implement the L1, L2, Huber losses_ (see ***Chapter 2***) _in three different f
 
 **Mind the normalization when you do the cross-validation**.
 
-**Write your code in the `homework.py` (or .ipynb) file** or in **Write your code in the `homework.m` file** (depending on the environment). All the implementations should be in appropriate functions. In the function `main` only show and explain the answers to all tasks by calling the functions (keep other code to a minimum). Make it absolutely clear in the comments or via printing where the answer to each task is.
+**Write your code in the `homework.py` (or .ipynb) file** or in **`homework.m` file** (depending on the environment). All the implementations should be in appropriate functions. In the function `main` only show and explain the answers to all tasks by calling the functions (keep other code to a minimum). Make it absolutely clear in the comments or via printing where the answer to each task is.
 
 You may create auxiliary modules but only if absolutely necessary. Please keep your code as simple as possible.
 
