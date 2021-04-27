@@ -55,7 +55,7 @@ _Implement the L1, L2, Huber losses_ (see ***Chapter 2***) _in three different f
 
 ***
 
-1. Construct a **simple linear regression model** that predicts the Compressive Strength of a given concrete type provided **Water** level.
+1. Construct a **simple linear regression model** that predicts the **Compressive Strength** of a given concrete type provided **Water** level.
 
   	- Use 90% of the sample length for the total training set and 10% for the testing set.
 
@@ -75,7 +75,7 @@ _Implement the L1, L2, Huber losses_ (see ***Chapter 2***) _in three different f
 
   	- Compute the training (in-sample) and testing (out-of-sample) performance of such model using implemented losses.
 
-  	- Plot *in 3D* the predicted fuel consumption values (regression plane) and the actual ones.
+  	- Plot *in 3D* the predicted Compressive Strength values (regression plane) and the actual ones.
 
 
 3. Implement predictor filtering for all possible predictors, make conclusions. Consider all the 9 predictors (d = 9) in the dataset ("Cement",	"Slag",	"Fly ash", "Water", "SP", "Coarse Aggr.", "Fine Aggr.", "SLUMP(cm)", "FLOW(cm)").
