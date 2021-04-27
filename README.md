@@ -3,7 +3,7 @@
   <a>Assignment 1 – Linear Regression</a>
 </h1>
 <h3 align="center">
-  <a>Machine Learning @ Moscow State University 2021</a>
+  <a>Machine Learning @ University of Konstanz 2021</a>
 </h3>
 
 ## Idea 📓
