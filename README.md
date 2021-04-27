@@ -71,14 +71,14 @@ _Implement the L1, L2, Huber losses_ (see ***Chapter 2***) _in three different f
 
   		- Predicted Compressive Strength values (regression line) and ground-truth data points for the **test data**.
 
-2. Construct an example of **multiple regression** using as predictors **gross horsepower** and **weight**.
+2. Construct an example of **multiple regression** using as predictors **Water** and **Coarse Aggregate**.
 
   	- Compute the training (in-sample) and testing (out-of-sample) performance of such model using implemented losses.
 
   	- Plot *in 3D* the predicted fuel consumption values (regression plane) and the actual ones.
 
 
-3. Implement predictor filtering for all possible predictors, make conclusions. Consider only the first 6 predictors (d = 6) in the dataset (cyl, disp, hp, drat, wt, qsec).
+3. Implement predictor filtering for all possible predictors, make conclusions. Consider all the 9 predictors (d = 9) in the dataset ("Cement",	"Slag",	"Fly ash", "Water", "SP", "Coarse Aggr.", "Fine Aggr.", "SLUMP(cm)", "FLOW(cm)").
 
 4. Implement stepwise forward subset selection for all the d predictors. Plot the associated training errors for all the best resulting models with k predictors, k=0,1,...,d. Use the nested cross-validation in order to obtain the estimate of the statistical risk commited by the models and to select the best model.
 
@@ -88,7 +88,7 @@ _Implement the L1, L2, Huber losses_ (see ***Chapter 2***) _in three different f
 
 **Mind the normalization when you do the cross-validation**.
 
-**Write your code in the `homework.py` file**. All the implementations should be in appropriate functions. In the function `main` only show and explain the answers to all tasks by calling the functions (keep other code to a minimum). Make it absolutely clear in the comments or via printing where the answer to each task is.
+**Write your code in the `homework.py` (or .ipynb) file** or in **Write your code in the `homework.m` file** (depending on the environment). All the implementations should be in appropriate functions. In the function `main` only show and explain the answers to all tasks by calling the functions (keep other code to a minimum). Make it absolutely clear in the comments or via printing where the answer to each task is.
 
 You may create auxiliary modules but only if absolutely necessary. Please keep your code as simple as possible.
 
